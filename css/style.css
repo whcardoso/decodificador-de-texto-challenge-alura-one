@@ -1,0 +1,177 @@
+body {
+    background: #F3F5FC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 2% 4%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 940px;
+    margin: auto;
+}
+
+.principal {
+    flex-grow: 2;
+}
+
+#entrada {
+    font-size: 22px;
+    color: #052051;
+    height: 400px;
+    width: 90%;
+    background: #F3F5FC;
+    border: 1px solid #F3F5FC;
+    border-radius: 3px;
+    resize: none;
+}
+
+#entrada:focus {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#saida {
+    font-size: 22px;
+    color: #111;
+    background: #FFF;
+    border: none;
+    resize: none;
+    height: 80%;
+    width: 90%;
+}
+
+.resultado {
+    flex-grow: 1;
+}
+
+#resultado {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 2px #8a8c8f65;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+#resultado img {
+    max-width: 400px;
+    padding-top: 10%;
+}
+
+#resultado h2 {
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#resultado p {
+    font-size: 14px;
+}
+
+.aviso {
+    font-size: 12px;
+    padding-top: 20px;
+    color: #495057;
+}
+
+.aviso img {
+    vertical-align:text-bottom;
+    margin-right: 5px;
+}
+
+.botoes {
+    padding: 20px 0px;
+    display: block;
+}
+
+#criptografar, #descriptografar, #copiar {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 160px;
+    border: 1px solid #052051;
+}
+
+#criptografar {
+    margin-right: 20px;
+    background: #072B61;
+    color: #fff;
+}
+
+#descriptografar {
+    background: #F3F5FC;
+}
+
+#criptografar:hover, #descriptografar:hover, #copiar:hover {
+    cursor: pointer;
+    background: #111;
+    color: #fff;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background: #bbb;
+    margin-top: 50px;
+}
+
+.social, .copyright {
+    text-align: center;
+}
+
+.social {
+    margin-bottom: 10px;
+}
+
+.social i, .copyright {
+    color: #111;
+}
+
+.social i {
+    font-size: 22px;
+    padding: 5px;
+}
+
+.social i:hover {
+    color: #052051;
+}
+
+.copyright {
+    font-size: 13px;
+}
+
+@media (max-width: 981px) {
+    header {
+        display: flex;
+        padding: 3% 6%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    #saida {
+        min-height: 200px;
+    }
+
+    #resultado img {
+        padding: 0;
+    }
+}

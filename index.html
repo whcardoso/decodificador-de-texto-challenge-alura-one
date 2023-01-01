@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Desafio Alura</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    </head>
+
+    <body>
+        <header>
+            <h1><img src="images/logo.png" alt="Logotipo - Decodificador de textos"/></h1>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="principal">
+                    <textarea id="entrada" placeholder="Digite seu texto"></textarea>
+
+                    <p class="aviso"><img src="images/atencao.png"/>Apenas letras minúsculas e sem acento.</p>
+                    <div class="botoes">
+                        <button id="criptografar">Criptografar</button>
+                        <button id="descriptografar">Descriptografar</button>   
+                    </div>
+                </div>
+
+                <div id="resultado" class="resultado">
+                    <img src="images/nenhuma-mensagem.svg"/>
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>    
+            </div>
+        </main>
+
+        <footer class="rodape">
+            <div class="social">
+                <a href="https://github.com/whcardoso" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/whcardoso/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p class="copyright">&copy; 2022 - Desenvolvido por Wallace Henrique</p>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
