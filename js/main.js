@@ -12,7 +12,12 @@ function descriptografar() {
 
 function mostraResultado(texto) {
     const resultado = document.getElementById('resultado');
-    resultado.innerHTML = '<textarea type="text" id="saida" readonly>' + texto + '</textarea>' + '<button id="copiar" onclick="copiar()">Copiar</button>';
+
+    if(texto == ''){
+        resultado.innerHTML = '<textarea type="text" id="saida" readonly>Nenhuma mensagem informada.</textarea>' + '<button id="copiar" onclick="copiar()">Copiar</button>';
+    } else {
+        resultado.innerHTML = '<textarea type="text" id="saida" readonly>' + texto + '</textarea>' + '<button id="copiar" onclick="copiar()">Copiar</button>';
+    }   
 }
 
 function copiar() {

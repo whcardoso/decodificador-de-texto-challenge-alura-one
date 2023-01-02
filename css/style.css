@@ -124,7 +124,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    background: #bbb;
+    background: #0a3871;
     margin-top: 50px;
 }
 
@@ -137,7 +137,7 @@ header {
 }
 
 .social i, .copyright {
-    color: #111;
+    color: #fff;
 }
 
 .social i {
@@ -146,7 +146,8 @@ header {
 }
 
 .social i:hover {
-    color: #052051;
+    text-decoration: underline;
+    color: #6a79c5;
 }
 
 .copyright {
