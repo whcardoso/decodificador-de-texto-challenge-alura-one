@@ -6,6 +6,7 @@
    * [Requisitos](#requisitos)
    * [Extras](#extras)
    * [Funcionalidades](#features)
+   * [Demonstração](#demo)
 <!--te-->
 
 <h3 align="center">
@@ -42,3 +43,15 @@ Primeiro desafio proposto durante o programa ONE (Oracle Next Education), cujo o
 - [x] Decodificação de texto
 - [x] Botão para copiar o resultado
 - [x] Responsividade
+
+<h3 name="demo">Demonstração:</h3>
+<ul>
+  <li>Teste: <a href="https://whcardoso.github.io/decodificador-de-texto-challenge-alura-one/" target="_blank">Clique aqui para testar</a>.</li>
+</ul>
+<img alt="Demonstração" title="Decodificador de Textos" src="./screenshots/main.png" />
+
+
+<h3 name="autor">Autor</h3>
+<p>Feito com ❤️ por Wallace Henrique</p>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Wallace-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/whcardoso/)](https://www.linkedin.com/in/whcardoso/) 
