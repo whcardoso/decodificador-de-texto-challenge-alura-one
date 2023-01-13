@@ -35,7 +35,7 @@ Primeiro desafio proposto durante o programa ONE (Oracle Next Education), cujo o
 
 <h3 name="extras">Extras:</h3>
 <ul>
-  <li>Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do <code>CTRL + C</code> ou da opção "copiar" do menu dos aplicativos.</li>
+  <li>Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do <kbd>CTRL</kbd> + <kbd>C</kbd> ou da opção "copiar" do menu dos aplicativos.</li>
 </ul>
 
 ### Funcionalidades <a name="features"></a>
