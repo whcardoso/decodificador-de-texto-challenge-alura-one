@@ -22,7 +22,7 @@ header {
 }
 
 #entrada {
-    font-size: 22px;
+    font-size: 2.2em;
     color: #052051;
     height: 400px;
     width: 90%;
@@ -53,13 +53,14 @@ header {
 }
 
 #resultado {
+    max-width: 400px;
     background: #fff;
     border-radius: 20px;
     padding: 20px;
     box-sizing: border-box;
     box-shadow: 1px 2px 2px #8a8c8f65;
     text-align: center;
-    line-height: 20px;
+    line-height: 1.6em;
     vertical-align: middle;
 }
 
@@ -69,17 +70,17 @@ header {
 }
 
 #resultado h2 {
-    font-size: 20px;
+    font-size: 1.3em;
     padding: 20px;
     font-weight: bold;
 }
 
 #resultado p {
-    font-size: 14px;
+    font-size: 1em;
 }
 
 .aviso {
-    font-size: 12px;
+    font-size: 1em;
     padding-top: 20px;
     color: #495057;
 }
@@ -98,7 +99,7 @@ header {
     font-size: 20px;
     border-radius: 10px;
     padding: 10px;
-    min-width: 160px;
+    width: 90%;
     border: 1px solid #052051;
 }
 
@@ -110,6 +111,7 @@ header {
 
 #descriptografar {
     background: #F3F5FC;
+    margin-top: 15px;
 }
 
 #criptografar:hover, #descriptografar:hover, #copiar:hover {
@@ -141,7 +143,7 @@ header {
 }
 
 .social i {
-    font-size: 22px;
+    font-size: 2em;
     padding: 5px;
 }
 
@@ -151,10 +153,10 @@ header {
 }
 
 .copyright {
-    font-size: 13px;
+    font-size: 0.9em;
 }
 
-@media (max-width: 981px) {
+@media screen and (max-width: 1024px) {
     header {
         display: flex;
         padding: 3% 6%;
@@ -168,11 +170,96 @@ header {
         width: 100%;
     }
 
+    #entrada {
+        font-size: 2.5em;
+    }
+
+    .aviso, .copyright {
+        font-size: 1em;
+    }
+
+    #criptografar, #descriptografar, #copiar {
+        width: 100%;
+        font-size: 1.6em;
+    }
+
+    #descriptografar {
+        margin-top: 20px;
+    }
+
+    #saida, .social i {
+        font-size: 2em;
+    }
+
     #saida {
         min-height: 200px;
     }
 
+    #resultado {
+        max-width: 100%;
+    }
+    
     #resultado img {
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #resultado h2 {
+        font-size: 1.5em;
+        line-height: 1.1em;
+    }
+    
+    #resultado p {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #entrada {
+        font-size: 2em;
+    }
+
+    #criptografar, #descriptografar, #copiar {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+        margin: 20px;
+    }
+
+    #entrada {
+        font-size: 2em;
+    }
+
+    #criptografar, #descriptografar, #copiar {
+        font-size: 1.4em;
+    }
+
+    #resultado {
+        padding: 10px;
+    }
+
+    #resultado h2 {
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+
+    #resultado p {
+        font-size: 1em;
+        padding: 12px;
+    }
+
+    .rodape {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #resultado {
+        padding: 20px 0;
     }
 }
